@@ -1,0 +1,79 @@
+@import "iota/normalize";
+@import "iota/syntax-highlighting";
+
+$horizontal-rule: 1px solid #bbb;
+$spacing: 0.5em;
+
+// some inspiration taken from http://bettermotherfuckingwebsite.com/
+
+html {
+    // readability - this isn't an aesthetic change, but a practical
+    // one - smaller, more closely spaced fonts are harder to read
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+body {
+    // readability - shorter lines are easier to read
+    max-width: 650px;
+
+    // opinionated/readability - center the content
+    margin: 0 auto;
+
+    // readability - on narrow devices, we need some padding
+    padding: 0 $spacing;
+}
+
+time {
+    // opinionated/readability - emphasize times, it's clearer to the
+    // user if they stand out from the content
+    font-style: italic;
+}
+
+header, footer {
+    // opinionated/readability - padding increases clarity
+    padding: $spacing 0;
+
+    p {
+        // opinionated/readability - paragraphs in headers and footers
+        // don't need extra margins
+        margin: 0;
+    }
+
+    h1, h2 {
+        // opinionated/readability - headings in headers don't need
+        // extra margins
+        margin: 0;
+    }
+}
+
+header.site {
+    // readability - clear separation of content
+    border-bottom: $horizontal-rule;
+
+    // opinionated - make the page title look like an h2
+    p.title {
+        font-size: 1.5em;  // common h2 size (browser styles)
+        font-weight: bold;
+    }
+
+    nav {
+        // opinionated - nav should be aligned right - sets it apart
+        text-align: right;
+
+        a {
+            // readability - separate nav items
+            margin-left: $spacing;
+        }
+    }
+}
+
+footer {
+    // readability - clear separation of content
+    border-top: $horizontal-rule;
+}
+
+article {
+    // opinionated/readability - articles should have some margin
+    margin: $spacing 0;
+}

@@ -1,0 +1,15 @@
+<footer>
+  <p class="copyright"><small>Copyright &copy; {{ page.date | default: site.time | date: "%Y" }} <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a></small></p>
+
+  {% if site.license %}
+  <p class="license"><small>{{ site.license }}</small></p>
+  {% endif %}
+
+  {% if site.powered_by %}
+  <p class="powered-by">
+    <small>
+      Powered by <a href="http://jekyllrb.com/">Jekyll</a> using the <a href="https://github.com/artlogic/iota">iota</a> theme.
+    </small>
+  </p>
+  {% endif %}
+</footer>
