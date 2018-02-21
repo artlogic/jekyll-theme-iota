@@ -12,7 +12,7 @@ author:
   email: your-email@domain.com
 description: > # this means to ignore newlines until "url:"
   Write an awesome description for your new site here.
-baseurl: "/iota" # the subpath of your site, e.g. /blog/
+baseurl: "/jekyll-theme-iota" # the subpath of your site, e.g. /blog/
 url: "https://artlogic.github.io" # the base hostname & protocol for your site
 
 license: > # the license for your site - optional
@@ -25,3 +25,5 @@ permalink: pretty
 
 kramdown:
   input: GFM
+
+theme: jekyll-theme-iota
