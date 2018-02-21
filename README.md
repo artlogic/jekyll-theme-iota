@@ -15,10 +15,3 @@ Additionally, I've borrowed the Github/Jekyll [syntax highlighting style sheet](
 
 * Posts and pages should not include H1 tags
 * License information in _config.yml is not escaped when emitted.
-
-## Dependencies
-
-* [jekyll](https://github.com/jekyll/jekyll/) >=3.3
-* [jekyll-feed](https://github.com/jekyll/jekyll-feed/)
-* [jekyll-seo](https://github.com/jekyll/jekyll-seo/)
-* [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap/)
