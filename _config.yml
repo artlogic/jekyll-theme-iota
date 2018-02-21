@@ -26,4 +26,11 @@ permalink: pretty
 kramdown:
   input: GFM
 
-remote_theme: artlogic/jekyll-theme-iota
+theme: jekyll-theme-iota
+
+# plugins - needed for gh pages demo
+# should not be needed when when using the theme (I think...)
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
