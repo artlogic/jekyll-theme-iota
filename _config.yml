@@ -26,5 +26,4 @@ permalink: pretty
 kramdown:
   input: GFM
 
-theme: jekyll-theme-iota
 remote_theme: artlogic/jekyll-theme-iota
