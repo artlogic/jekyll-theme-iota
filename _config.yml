@@ -28,9 +28,10 @@ kramdown:
 
 remote_theme: artlogic/jekyll-theme-iota
 
-# plugins - needed for gh pages demo
-# should not be needed when when using the theme (I think...)
-gems:
+# currently this is needed because remote_theme doesn't automatically
+# include dependencies - hopefully this will be fixed soon:
+# https://github.com/benbalter/jekyll-remote-theme/pull/19
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
